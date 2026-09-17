@@ -8,7 +8,7 @@ Number: 16,941 tokens in per ticket, n=5 shapes, one run each (84,706 total). Of
 Guardrail: The agent declines work outside its remit. On G2HL9V, a 12-passenger group booking, it read the group flag and escalated to the Group Desk in two tool calls, without touching flight status, alternatives or vouchers. Proven on one Stage 1 shape, not yet against an adversarial case.
 Next: Close the tone gap, then turn the guardrail from a demonstration into a suite — cases that actively try to force a confirmation without a token, or slip a group booking past the scope check.
 Still broken: Nothing watches tone. Case tone-0101, abuse plus a legal threat, fails on rules: the agent never calls escalate_to_human and answers with a normal entitlements rundown as though nothing was said.
-Lever: <cost | speed | intelligence>
+Lever: intelligence
 
 ## Priya asked
 
